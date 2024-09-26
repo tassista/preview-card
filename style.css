@@ -68,6 +68,10 @@ body{
     font-weight: 900;
     margin-block-start: 12px;
 }
+.card__header:hover{
+    color: var(--clr-prim);
+    cursor: pointer;
+}
 
 .card__text{
     font-size: var(--fs-medium);
