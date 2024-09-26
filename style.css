@@ -31,9 +31,9 @@ body{
 }
 
 .card-main{
-    width: clamp(20rem, 18rem + 10vw ,23rem);
+    width: clamp(20rem, 18rem + 10vw ,24rem);
     background: var(--clr-white);
-    border: 3px solid var(--clr-grey-950);
+    border: 1px solid var(--clr-grey-500);
     border-radius: 20px;
     padding: 24px;
     box-shadow: 7px 7px var(--clr-grey-950);
@@ -72,6 +72,8 @@ body{
 .card__text{
     font-size: var(--fs-medium);
     margin-block-start: 12px;
+    color: var(--clr-grey-500);
+    line-height: 1.5;
 }
 
 .card__user{
