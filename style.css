@@ -73,7 +73,7 @@ body{
     font-size: var(--fs-medium);
     margin-block-start: 12px;
     color: var(--clr-grey-500);
-    line-height: 1.5;
+   
 }
 
 .card__user{
